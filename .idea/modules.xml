@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Zmqtt.iml" filepath="$PROJECT_DIR$/Zmqtt.iml" />
+      <module fileurl="file://E:\AS2018\Zmqtt-master\Zmqtt-master\Zmqtt.iml" filepath="E:\AS2018\Zmqtt-master\Zmqtt-master\Zmqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Zmqtt-master.iml" filepath="$PROJECT_DIR$/Zmqtt-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://E:\AS2018\Zmqtt-master\Zmqtt-master\app\app.iml" filepath="E:\AS2018\Zmqtt-master\Zmqtt-master\app\app.iml" />
     </modules>
   </component>
 </project>

@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     break;
                 }
 
-                MQTTService.publish("测试测试测试");
+                MQTTService.publish("测试Z");
                 break;
         }
     }
@@ -144,6 +144,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     String datay = new String(xx.mPayload);
     MqttPacketModel yy = MqttMsgHeader.MqttMsgHeaderPasre("Topic/MachineNum",datay.getBytes());
     System.out.println(new String(yy.mPayload));*/
-
 
 }

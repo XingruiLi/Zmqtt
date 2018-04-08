@@ -35,11 +35,20 @@ public class MQTTService extends Service {
     private static MqttAndroidClient client;
 
     private MqttConnectOptions conOpt;
-    private String host = "tcp://10.0.0.16:61613";
+
+    private String host = "tcp://wjserver01.mqtt.iot.gz.baidubce.com:1883";
+    private String userName = "wjserver01/device01";
+    private String passWord = "ude+5Fo/HtdsR/+Ez+Pp8hnXDCSb9NPd+Rg92HK1Gmg=";
+    private  static String myTopic = "WJ/V1/GAT/TCP/R/J/CT/TID01I216";
+
+   /* private String host = "tcp://10.0.0.16:61613";
     private String userName = "admin";
-    private String passWord = "password";
-    private static String myTopic = "topic";
+    private String passWord = "password"; */
+    //private static String myTopic = "topic";
     private String clientId = "test2";
+
+
+
 
     @Override
     public void onCreate() {
